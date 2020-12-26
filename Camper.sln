@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{26433DD6-F40B-48DD-959D-BABED95CA75B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{29D2F433-0443-478B-9DEC-493041106729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camper.Web", "Camper.Web\Camper.Web.csproj", "{177E4D60-C21D-4406-AE13-10DBA0E1D495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camper.Web.CampFinder", "Camper.Web.CampFinder\Camper.Web.CampFinder.csproj", "{6B8C140F-D1DA-4999-B5E7-0B59DA69D207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177E4D60-C21D-4406-AE13-10DBA0E1D495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177E4D60-C21D-4406-AE13-10DBA0E1D495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177E4D60-C21D-4406-AE13-10DBA0E1D495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177E4D60-C21D-4406-AE13-10DBA0E1D495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8C140F-D1DA-4999-B5E7-0B59DA69D207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8C140F-D1DA-4999-B5E7-0B59DA69D207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8C140F-D1DA-4999-B5E7-0B59DA69D207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8C140F-D1DA-4999-B5E7-0B59DA69D207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{177E4D60-C21D-4406-AE13-10DBA0E1D495} = {26433DD6-F40B-48DD-959D-BABED95CA75B}
+		{6B8C140F-D1DA-4999-B5E7-0B59DA69D207} = {29D2F433-0443-478B-9DEC-493041106729}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F31EA818-282B-4AE3-B592-40A6B03D0EF9}
+	EndGlobalSection
+EndGlobal
